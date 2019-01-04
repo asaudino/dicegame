@@ -13,12 +13,20 @@ $(document).ready(function(){
 
   $('#newgame').click(function(){
     $('#gamecontainer').html('\
-      <div class="w3-col w3-margin-bottom">\
         <div class="w3-light-grey w3-border-black" style="text-align:center">\
-          <div class="w3-black">What type of dice?</div>\
+          <div class="w3-black">How many dice?</div>\
           <div class="w3-container">\
             <p>\
-              <button id="id6dice" class="rollbutton w3-button w3-black w3-hover-dark-gray">d6</button>\
+              <button id="1dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">1</button>\
+              <button id="2dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">2</button>\
+              <button id="3dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">3</button>\
+              <button id="4dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">4</button>\
+              <button id="5dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">5</button>\
+              <button id="6dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">6</button>\
+              <button id="7dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">7</button>\
+              <button id="8dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">8</button>\
+              <button id="9dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">9</button>\
+              <button id="10dice" class="rollbutton w3-button w3-black w3-hover-dark-gray" style="margin-bottom: 5px;">10</button>\
             </p>\
             <p class="resulttext"></p>\
           </div>\
